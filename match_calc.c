@@ -7,7 +7,7 @@ void print_help(){
 void run_command_processor(){
 	print_help();
 }
-int _tmain(const int argc,const _tchar*const*const args,const _tchar*const*const env){
+int main(int argc,char**args,char**env){
 	run_command_processor();
 	return EXIT_SUCCESS;
 }
